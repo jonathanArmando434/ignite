@@ -5,7 +5,13 @@
   "author": "jonathanarmando434 <jonathanarmando434@gmail.com>",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "dev": "nodemon chapter.I/fundamentos-node/src/index.js"
+  },
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
